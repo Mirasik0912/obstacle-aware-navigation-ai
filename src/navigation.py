@@ -20,9 +20,10 @@ class NavigationEngine:
             else:
                 right += 1
 
-        if center == 0:
+        if center == 0: 
             return "Move forward"
         elif left < right:
             return "Move slightly left"
         else:
             return "Move slightly right"
+
