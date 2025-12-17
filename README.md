@@ -1,7 +1,32 @@
-# Obstacle-Aware Navigation Assistant (Prototype) 
+# Obstacle-Aware Navigation Assistant
 
-This project explores how computer vision can be used to detect obstacles
-and generate simple navigation instructions.
+## Problem
+Navigating unfamiliar environments safely is challenging, especially for visually impaired people.
 
-## Status
-Early prototype under active development.
+## Approach
+- Detect obstacles in an image using YOLOv8
+- Apply rule-based logic to generate movement instructions
+- Prototype tested on sample images
+
+## Technologies
+- Python
+- YOLOv8 (ultralytics)
+- OpenCV
+- Rule-based navigation logic
+
+## Results
+- Successfully detects obstacles
+- Provides textual navigation instructions
+- Fully functional prototype in Colab
+
+## Limitations
+- No depth perception
+- Single-frame analysis
+- Rule-based decisions only
+
+## Next Steps
+- Integrate real-time video input
+- Improve navigation logic using AI
+- User testing and feedback
+![Demo Output](assets/demo_screenshot.png)
+![Demo Output](assets/demo_screenshot1.png)
