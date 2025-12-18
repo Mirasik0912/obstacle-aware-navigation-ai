@@ -36,3 +36,8 @@ The system was tested on multiple images containing people, vehicles, and urban 
 It consistently detected obstacles and generated navigation instructions based on their positions and relative sizes.
 ![Demo Output](assets/demo_1.png)
 ![Demo Output](assets/demo_2.png)
+
+## Next Steps
+- Integrate real-time video stream for continuous navigation
+- Incorporate depth estimation for improved distance awareness
+
