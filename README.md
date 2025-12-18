@@ -30,3 +30,9 @@ Navigating unfamiliar environments safely is challenging, especially for visuall
 - User testing and feedback
 ![Demo Output](assets/demo_screenshot.png)
 ![Demo Output](assets/demo_screenshot1.png)
+
+## Results
+The system was tested on multiple images containing people, vehicles, and urban obstacles.
+It consistently detected obstacles and generated navigation instructions based on their positions and relative sizes.
+![Demo 1](assets/demo_1.png)
+![Demo 2](assets/demo_2.png)
